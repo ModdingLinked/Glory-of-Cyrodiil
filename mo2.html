@@ -200,23 +200,6 @@ SOFTWARE.
                         </ul>
                     </ol>
                     </p>
-                    <!-- Plugins -->
-                    <p>
-                        <a href="#plugins">
-                            <h3 id="plugins">Setting Up Plugins</h3>
-                        </a>
-                    <ol>
-                        <li>Once Mod Organizer 2 has loaded, right-click in the right pane and select <strong>Enable all</strong>
-                        </li>
-                        <li>Order the plugins in the right pane as follows:</li>
-                        <img src="./img/mo2 plugin order.webp" alt="Order of DLCs">
-                        <li>If there is a plugin called <strong>FalloutNV_lang.esp</strong> in the right pane, navigate to the game's <strong>Data</strong> folder and delete it</li>
-                        <ul>
-                            <li>If you do not know what the game's <strong>Data</strong> folder is, read the Key Terminology section from the <a class="sublink" href="./setup.html#terms" target="_blank">Initial Setup</a> page</li>
-                        </ul>
-                    </ol>
-                    <blockquote>The translation plugin must be deleted because it directly edits thousands of records to change the language, which will cause many incompatibilities with most mods. Because of conflicts like this, the guide unfortunately only supports the English version of the game.</blockquote>
-                    </p>
                     <!-- Settings -->
                     <p>
                         <a href="#settings">
@@ -258,76 +241,6 @@ SOFTWARE.
                         <li>Exit out of the profiles menu and select the <strong>Glory of Cyrodiil</strong> profile from the drop-down above the left pane.</li>
                         <img src="./img/mo2 profile select.webp" alt="Profile selection">
                     </ol>
-                    </p>
-                </div>
-                <!-- INI Tweaks -->
-                <div class="section" id="ini_tweaks">
-                    <p>
-                        <a href="#ini_tweaks">
-                            <h2>INI Tweaks</h2>
-                        </a>
-                        <!-- Tweaking FalloutCustom.ini -->
-                    <p>
-                        <a href="#custom_ini">
-                            <h3 id="custom_ini">Tweaking FalloutCustom.ini</h3>
-                        </a> In this step, we will configure the game's INI files to increase performance/stability. We will take advantage of JIP LN NVSE's FalloutCustom.ini feature to make our changes, which allows for INI changes to be made safely without editing the default INIs. Because of this, these changes will not take affect until you install JIP LN NVSE in the <a href="#jip" target="_blank">Utilities</a>
-                    <ol>
-                        <li>Make sure the <strong>Glory of Cyrodiil</strong> profile is active.</li>
-                        <li>Click the <img src="./img/mo2 ini.webp" alt="MO2 INI button"> button at the top of MO2 and select <strong>INI Editor</strong>. </li>
-                        <li>Select the <strong>FalloutCustom.ini</strong> tab, which should be blank.</li>
-                        <ul>
-                            <li>Make sure you are in the <strong>FalloutCustom.ini</strong> tab and NOT the <strong>Custom.ini</strong> tab. </li>
-                        </ul>
-                        <li>Paste in the following:</li>
-                        <textarea readonly="readonly" style="height: 51.5em; width: 95%;" onclick="this.focus();this.select()">
-[Archive]
-; List of archives read on startup. Necessary when using decompressed BSAs
-SArchiveList=Fallout - Invalidation.bsa, Fallout - Textures.bsa, Fallout - Textures2.bsa, Fallout - Meshes.bsa, Fallout - Meshes2.bsa, Fallout - Voices1.bsa, Fallout - Sound.bsa, Fallout - Misc.bsa
-
-[Audio]
-; Enables additional worker thread for minor performance improvement. Disable if you encounter audio stutter.
-bMultiThreadAudio=1
-; Disables debug logging to save memory and CPU time
-bUseAudioDebugInformation=0
-; Increases memory buffers to reduce audio issues
-iAudioCacheSize=8192
-iMaxSizeForCachedSound=1024
-
-[BackgroundLoad]
-; Forces cell unload on fast travel to lessen memory usage
-bSelectivePurgeUnusedOnFastTravel=1
-
-[Controls]
-; Disables mouse acceleration
-fForegroundMouseAccelBase=0
-fForegroundMouseAccelTop=0
-fForegroundMouseBase=0
-fForegroundMouseMult=0
-
-[Display]
-; Enables Fullscreen mode
-bFull Screen=1
-; Forces highest texture quality so the game won't crash if you had it set to anything lower
-iTexMipMapSkip=0
-
-[General]
-; Forces faster cell unload to lessen memory usage
-bPreemptivelyUnloadCells=1
-; Spawns additional AI worker threads
-bUseThreadedAI=1
-; Enables multithreading for most operations
-iNumHWThreads=2
-
-[Grass]
-; Increases grass draw distance
-fGrassStartFadeDistance=11200</textarea>
-                    </ol>
-                    </p>
-                    <p>
-                        <a href="#ini_notes">
-                            <h3 id="ini_notes">Notes</h3>
-                        </a> It is highly recommended to avoid changing any other INI settings not in the guide, and to avoid using tools like BethINI. You will realistically not need any other tweaks than the ones already in the guide.
-                    </p>
                     </p>
                 </div>
                 <!-- Instructions -->

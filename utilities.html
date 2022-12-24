@@ -190,65 +190,56 @@ SOFTWARE.
                     <img src="./img/root.webp" alt="Screenshot of the root folder showcasing correct xOBSE install" id="xobse_root">
                 </blockquote>
             </div>
-            <!-- Dummy -->
+            <!-- MLF -->
             <div class="section">
                 <p>
-                    <a class="link" href="https://www.nexusmods.com/oblivion/mods/x" target="_blank">
-                        <h2 id="dummy"> Dummy </h2>
+                    <a class="link" href="https://www.nexusmods.com/oblivion/mods/50066" target="_blank">
+                        <h2 id="limit_fix"> OBL Mod Limit Fix </h2>
                     </a>
                 <h2 class="install">Installation instructions:</h2>
                 <ul>
-                    <li><b>Main File - Dummy</b></li>
-                </ul> Dummy. </p>
+                    <li><b>Main File - OBLModLimitFix</b></li>
+                </ul>
+                Increases the maximum amount of file handles the game can open.
+                </p>
             </div>
-            <!-- Testing -->
+            <!-- SkyBSA -->
             <div class="section">
                 <p>
-                    <a href="#testing">
-                        <h2 id="testing">Testing Utilities</h2>
+                    <a class="link" href="https://www.nexusmods.com/oblivion/mods/49568" target="_blank">
+                        <h2 id="skybsa"> SkyBSA </h2>
                     </a>
-                <ol>
-                    <li>Restart your PC (Otherwise some plugins will print out 0)</li>
-                    <li>Launch the game using the <strong>New Vegas</strong> option in MO2 (NOT the <strong>NVSE</strong> option) </li>
-                    <li>If you see a black console window appear, it means <strong>NVHR</strong> is working</li>
-                    <ul>
-                        <li>If not, <a href="./utilities.html#heap">NVHR</a> is installed incorrectly</li>
-                    </ul>
-                    <li>Once the game has reached the main menu, hit the <code>~</code> key (Above the tab key) to open the console</li>
-                    <ul>
-                        <li>You will need to unplug/disconnect any controllers to be able to use the keyboard</li>
-                    </ul>
-                    <li>Enter <code>GetNVSEVersion</code>, and the console should print <code>NVSE version: 6</code>
-                    </li>
-                    <ul>
-                        <li>If not, <a href="./utilities.html#xnvse">xNVSE</a> is installed incorrectly</li>
-                    </ul>
-                    <li>Next, enter <code>GetIsLAA</code>, and the console should print <code>GetIsLAA >> 2</code></li>
-                    <ul>
-                        <li>If it prints <code>>> 0</code>, then the <a href="./utilities.html#4gb_patcher">4GB Patch</a> was applied incorrectly</li>
-                        <li>If it prints an error message, then <a href="./utilities.html#jip">JIP LN NVSE</a> is installed incorrectly</li>
-                    </ul>
-                    <li>Next, enter <code>GetINISetting "bUseThreadedAI:General"</code> and the console should print <code>INISetting bUseThreadedAI:General >> 1</code>
-                    </li>
-                    <ul>
-                        <li>If not, then the <a href="./mo2.html#custom_ini" target="_blank">Tweaking FalloutCustom.ini</a> step was done incorrectly</li>
-                    </ul>
-                    <li>Next, enter <code>IsDLLLoaded CobbCrashLogger</code>, and the console should print <code>IsDLLLoaded "CobbCrashLogger.dll" >> 1</code>
-                    </li>
-                    <ul>
-                        <li>If not, then <a href="./utilities.html#cobb">Crash Logger</a> is installed incorrectly</li>
-                    </ul>
-                    <li>Next, enter <code>IsDLLLoaded NVTF</code>, and the console should print <code>IsDLLLoaded "nvtf.dll" >> 1</code>
-                    </li>
-                    <ul>
-                        <li>If not, then <a href="./utilities.html#nvtf">NVTF</a> is installed incorrectly</li>
-                    </ul>
-                    <li>Next, enter <code>IsDLLLoaded mlf</code>, and the console should print <code>IsDLLLoaded "mlf.dll" >> 1</code>
-                    </li>
-                    <ul>
-                        <li>If not, then <a href="./utilities.html#limit_fix">Mod Limit Fix</a> is installed incorrectly </li>
-                    </ul>
-                </ol>
+                <h2 class="install">Installation instructions:</h2>
+                <ul>
+                    <li><b>Main File - SkyBSA</b></li>
+                </ul>
+                Forces Oblivion to handle BSAs and loose files the same way that Skyrim does.
+                </p>
+            </div>
+            <!-- Blockhead -->
+            <div class="section">
+                <p>
+                    <a class="link" href="https://www.nexusmods.com/oblivion/mods/43752" target="_blank">
+                        <h2 id="blockhead"> Blockhead </h2>
+                    </a>
+                <h2 class="install">Installation instructions:</h2>
+                <ul>
+                    <li><b>Main File - Blockhead</b></li>
+                </ul>
+                Adds many new features such as free camera movement in the character creation menu.
+                </p>
+            </div>
+            <!-- Display Tweaks -->
+            <div class="section">
+                <p>
+                    <a class="link" href="https://www.nexusmods.com/oblivion/mods/50348" target="_blank">
+                        <h2 id="display_tweaks"> Oblivion Display Tweaks </h2>
+                    </a>
+                <h2 class="install">Installation instructions:</h2>
+                <ul>
+                    <li><b>Main File - Oblivion Display Tweaks</b></li>
+                </ul>
+                Micro stutter tick fix, high framerate fix, true FOV fix, alt-tab freeze fix in fullscreen and VRR working in borderless/windowed mode.
                 </p>
             </div>
             <div>
@@ -265,7 +256,16 @@ SOFTWARE.
             <p>
             <ul>
                 <li>
-                    <a href="#dummy">Dummy</a>
+                    <a href="#limit_fix">Mod Limit Fix</a>
+                </li>
+                <li>
+                    <a href="#skybsa">SkyBSA</a>
+                </li>
+                <li>
+                    <a href="#blockhead">Blockhead</a>
+                </li>
+                <li>
+                    <a href="#display_tweaks">Display Tweaks</a>
                 </li>
             </ul>
             </p>
