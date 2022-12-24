@@ -13,7 +13,7 @@
 }
 
 *::-webkit-scrollbar-track {
-    background: transparent;
+    background: #2c2c2c;
 }
 
 *::-webkit-scrollbar-thumb {
@@ -38,7 +38,7 @@ body {
     line-height: 1.25em;
     font-family: arial, helvetica, sans-serif;
     color: rgb(220, 220, 220);
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(64, 64, 64);
     font-size: 0.75em;
 }
 
@@ -51,7 +51,7 @@ b {
 }
 
 strong {
-    color: rgb(250, 173, 121);
+    color: #a18c4b;
 }
 
 code {
@@ -76,7 +76,7 @@ input[type] {
     padding: 0.5em 0.5em;
     margin-bottom: 1em;
     background-color: #393a38;
-    border: 2pt solid #eba91c;
+    border: 2pt solid #8f7c42;
     border-radius: 8pt;
     box-shadow: none;
     box-sizing: border-box;
@@ -86,6 +86,10 @@ img {
     max-width: 90%;
     max-height: 80%;
     border-radius: 4pt;
+}
+
+#xobse_root {
+    max-width: 40%;
 }
 
 /* Body classes */
@@ -174,6 +178,10 @@ img {
     height: 100vh;
     transition-duration: 0s;
     transition: backdrop-filter 0.5s linear;
+    backdrop-filter: saturate(100%) blur(8px);
+}
+
+.welcomeContent::before {
     backdrop-filter: saturate(100%) blur(8px);
 }
 
@@ -379,7 +387,7 @@ img {
 blockquote {
     background-color: rgb(52, 52, 52);
     font-size: 1.05em;
-    border-left: 0.5em solid rgb(236, 150, 37);
+    border-left: 0.5em solid #8f7c42;
     padding: 0.5em 0.75em;
     line-height: 1.4em;
     border-radius: 4pt;
@@ -398,7 +406,7 @@ blockquote a:hover {
 /* Headers */
 
 h1 {
-    color: #ffb61a;
+    color: #b39b53;
     font-size: 2.5em;
     word-wrap: break-word;
 }
@@ -410,7 +418,7 @@ h2 {
 }
 
 .install {
-    color: rgb(252, 183, 46);
+    color: #bba564;
     font-size: 1.5em;
 }
 
@@ -426,13 +434,31 @@ h2 {
     margin-top: auto;
 }
 
-#footer a {
+#footer a,
+#paypal {
     padding: 0.3em 0em;
     font-size: 2em;
+    cursor: pointer;
 }
 
-#footer a:hover {
+#footer a:hover,
+#paypal:hover {
     scale: 90%;
+}
+
+#paypalMenu {
+    position: fixed;
+    background-color: #202020;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.40);
+    border-radius: 8px;
+    padding: 1em;
+    bottom: 8em;
+    left: 0em;
+    font-size: 0.8em;
+}
+
+#paypalMenu a:hover {
+    scale: 100%;
 }
 
 .navigationArrow {
@@ -533,6 +559,10 @@ h2 {
         line-break: anywhere;
     }
 
+    #xobse_root {
+        max-width: 90%;
+    }
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -552,4 +582,12 @@ h2 {
 .transparent {
     background-color: rgba(255, 255, 255, 0) !important;
     box-shadow: none !important;
+}
+
+.brighten {
+    color: hsl(0, 0%, 90%) !important;
+}
+
+.brighten:hover {
+    color: hsl(0, 0%, 100%) !important;
 }
