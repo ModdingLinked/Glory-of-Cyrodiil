@@ -134,7 +134,7 @@ SOFTWARE.
             <div id="footer">
                 <ul>
                     <li>
-                        <a href="https://github.com/VivaNewVegas/vivanewvegas.github.io" target="_blank">
+                        <a href="https://github.com/GloryofCyrodiil/GloryofCyrodiil.github.io" target="_blank">
                             <i class="fab fa-github"></i>
                         </a>
                     </li>
@@ -179,7 +179,7 @@ SOFTWARE.
                     </a>
                 <h2 class="install">Installation instructions:</h2>
                 <ol>
-                    <li><b>Main File - Oblivion Script Extender (xOBSE)</b> (Manual Download)</li>
+                    <li><b>Main Files - Oblivion Script Extender (xOBSE)</b> (Manual Download)</li>
                     <li>From the downloaded archive, extract <strong>everything</strong> to the game's <strong>Root</strong> folder </li>
                 </ol>
                 <blockquote>If you do not know what the <strong>Root</strong> folder is, read the <strong>Key Terminology</strong> section from the <a href="./setup.html#terms" target="_blank">Initial Setup</a> page.</blockquote>
@@ -190,6 +190,23 @@ SOFTWARE.
                     <img src="./img/root.webp" alt="Screenshot of the root folder showcasing correct xOBSE install" id="xobse_root">
                 </blockquote>
             </div>
+            <!-- 4GB Patch -->
+            <div class="section">
+                <p>
+                    <a class="link" href="https://www.nexusmods.com/oblivion/mods/45576" target="_blank">
+                        <h2 id="4gb_patcher"> 4GB Patcher </h2>
+                    </a>
+                <blockquote>This is required only for Steam users! The 4GB Patch is included with the GOG release.</blockquote>
+                <h2 class="install">Installation instructions:</h2>
+                <ol>
+                    <li>Download the <strong>Main File - 4gb_Patch_plus_Ram_optimization_readme</strong></li>
+                    <li>From the downloaded archive, extract the <strong>.exe</strong> file to the game's <strong>Root</strong> folder</li>
+                    <li>Right-click on <strong>4gb patch.exe</strong> and select <strong>Run as administrator</strong></li>
+                    <li>A command prompt window will open and should say <b>Executable successfully patched!</b></li>
+                </ol>
+                Makes the game large address aware, meaning it can use 4GB of RAM instead of 2GB.
+                </p>
+            </div>
             <!-- MLF -->
             <div class="section">
                 <p>
@@ -198,9 +215,10 @@ SOFTWARE.
                     </a>
                 <h2 class="install">Installation instructions:</h2>
                 <ul>
-                    <li><b>Main File - OBLModLimitFix</b></li>
+                    <li><b>Main Files - OBLModLimitFix</b></li>
                 </ul>
                 Increases the maximum amount of file handles the game can open.
+                <blockquote>After installing a mod, make sure you check the box next to it in the left pane of MO2 to enable it.</blockquote>
                 </p>
             </div>
             <!-- SkyBSA -->
@@ -211,7 +229,7 @@ SOFTWARE.
                     </a>
                 <h2 class="install">Installation instructions:</h2>
                 <ul>
-                    <li><b>Main File - SkyBSA</b></li>
+                    <li><b>Main Files - SkyBSA</b></li>
                 </ul>
                 Forces Oblivion to handle BSAs and loose files the same way that Skyrim does.
                 </p>
@@ -224,7 +242,7 @@ SOFTWARE.
                     </a>
                 <h2 class="install">Installation instructions:</h2>
                 <ul>
-                    <li><b>Main File - Blockhead</b></li>
+                    <li><b>Main Files - Blockhead</b></li>
                 </ul>
                 Adds many new features such as free camera movement in the character creation menu.
                 </p>
@@ -237,9 +255,25 @@ SOFTWARE.
                     </a>
                 <h2 class="install">Installation instructions:</h2>
                 <ul>
-                    <li><b>Main File - Oblivion Display Tweaks</b></li>
+                    <li><b>Main Files - Oblivion Display Tweaks</b></li>
                 </ul>
                 Micro stutter tick fix, high framerate fix, true FOV fix, alt-tab freeze fix in fullscreen and VRR working in borderless/windowed mode.
+                </p>
+            </div>
+            <!-- ORC -->
+            <div class="section">
+                <p>
+                    <a class="link" href="https://www.nexusmods.com/oblivion/mods/51927" target="_blank">
+                        <h2 id="orc"> Oblivion Reloaded Combined </h2>
+                    </a>
+                <h2 class="install">Installation instructions:</h2>
+                <ol>
+                    <li>Download the mod and install <b>Main File - ORC176</b> manually through MO2</li>
+                    <li>Once the mod has been installed, double-click on it in the left pane of MO2</li>
+                    <li>In the <strong>INI-Files</strong> tab, select <code>OBSE\Plugins\ORC.ini</code></li>
+                    <li>Change <strong>TestMessage</strong> from 1 to 0 (Near the bottom of the file)</li>
+                </ol>
+                Fixes shaders and adds missing optimizations to the game engine, also improves visuals.
                 </p>
             </div>
             <div>
@@ -256,6 +290,12 @@ SOFTWARE.
             <p>
             <ul>
                 <li>
+                    <a href="#xobse">xOBSE</a>
+                </li>
+                <li>
+                    <a href="#4gb_patcher">4GB Patcher</a>
+                </li>
+                <li>
                     <a href="#limit_fix">Mod Limit Fix</a>
                 </li>
                 <li>
@@ -266,6 +306,9 @@ SOFTWARE.
                 </li>
                 <li>
                     <a href="#display_tweaks">Display Tweaks</a>
+                </li>
+                <li>
+                    <a href="#orc">ORC</a>
                 </li>
             </ul>
             </p>
