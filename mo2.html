@@ -70,9 +70,6 @@
                     <a href="./gameplay.html">Gameplay</a>
                 </li>
                 <li>
-                    <a href="./overhauls.html">Overhauls</a>
-                </li>
-                <li>
                     <a href="./visuals.html">Visuals</a>
                 </li>
                 <li>
@@ -188,22 +185,6 @@
                 </ul>
             </ol>
             </p>
-            <!-- Plugins -->
-            <p>
-                <a href="#plugins">
-                    <h3 id="plugins">Setting Up Plugins</h3>
-                </a>
-            <ol>
-                <li>Once Mod Organizer 2 has loaded, right-click in the right pane and select <strong>Enable all</strong>
-                </li>
-                <li>Order the plugins in the right pane as follows:</li>
-                <img src="./img/mo2 plugin order.webp" alt="Order of DLCs">
-                <ul>
-                    <li>If you do not know what the game's <strong>Data</strong> folder is, read the Key Terminology section from the <a class="sublink" href="./setup.html#terms" target="_blank">Initial Setup</a> page</li>
-                </ul>
-            </ol>
-            <blockquote>The translation plugin must be deleted because it directly edits thousands of records to change the language, which will cause many incompatibilities with most mods. Because of conflicts like this, the guide unfortunately only supports the English version of the game.</blockquote>
-            </p>
             <!-- Settings -->
             <p>
                 <a href="#settings">
@@ -252,23 +233,21 @@
                 <a href="#ini_tweaks">
                     <h2>INI Tweaks</h2>
                 </a>
-
-                <!-- Tweaking OblivionCustom.ini -->
+                <!-- Tweaking Oblivion.ini -->
             <p>
-                <a href="#custom_ini">
-                    <h3 id="custom_ini">Tweaking OblivionCustom.ini</h3>
-                </a> In this step, we will configure the game's INI files to increase performance/stability. We will take advantage of JIP LN NVSE's OblivionCustom.ini feature to make our changes, which allows for INI changes to be made safely without editing the default INIs. Because of this, these changes will not take affect until you install JIP LN NVSE in the <a href="#jip" target="_blank">Utilities</a>
+                <a href="#oblivion_ini">
+                    <h3 id="oblivion_ini">Tweaking Oblivion.ini</h3>
+                </a> In this step, we will configure the game's INI files to increase performance/stability.
             <ol>
                 <li>Make sure the <strong>Glory of Cyrodiil</strong> profile is active.</li>
-                <li>Click the <img src="./img/mo2 ini.webp" alt="MO2 INI button"> button at the top of MO2 and select <strong>INI Editor</strong>. </li>
-                <li>Select the <strong>OblivionCustom.ini</strong> tab, which should be blank.</li>
+                <li>Click the <img src="./img/mo2 ini.webp" alt="MO2 INI button"> button at the top of MO2 and select <strong>INI Editor</strong>.</li>
+                <li>Select the <strong>Oblivion.ini</strong> tab.</li>
+                <li>Edit these INI entries so that they match the following values:</li>
                 <ul>
-                    <li>Make sure you are in the <strong>OblivionCustom.ini</strong> tab and NOT the <strong>Custom.ini</strong> tab. </li>
+                    <li>bFaceMipMaps=0</li>
+                    <li>bForceFullLOD=1</li>
+                    <li>bAllowScreenShot=1 (PrintScreen key)</li>
                 </ul>
-                <li>Paste in the following:</li>
-                <textarea readonly="readonly" style="height: 51.5em; width: 95%;" onclick="this.focus();this.select()">
-WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-</textarea>
             </ol>
             </p>
             <p>
