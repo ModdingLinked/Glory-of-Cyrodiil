@@ -89,7 +89,7 @@ img {
 }
 
 #xobse_root {
-  max-width: 40%;
+  max-width: 60%;
 }
 
 /* Body classes */
@@ -106,6 +106,7 @@ img {
 .section {
   font-size: 1.1rem;
   line-height: 1.33em;
+  margin-bottom: 2em;
 }
 
 .section::before {
@@ -210,7 +211,9 @@ img {
   background-color: #235163;
   border-radius: 12pt;
   text-shadow: none;
-  box-shadow: 0.1em 0.1em 0.6em rgba(0, 0, 0, 0.7);
+  box-shadow: 0.1em 0.1em 0.6em rgba(0, 0, 0, 0.6);
+  text-align: center;
+  z-index: 1;
   margin-bottom: auto;
   text-align: center;
 }
@@ -304,7 +307,7 @@ img {
   font-size: 1.33em;
   color: hsl(0, 0%, 50%);
   text-decoration: none;
-  padding: 0.66em 0em 0.66em 0em;
+  padding: 0.55em 0em 0.55em 0em;
 }
 
 #sidenavLeft div {
@@ -501,13 +504,21 @@ blockquote .performance::after {
   scale: 100%;
 }
 
-.navigationArrow {
+.navigationArrow img {
   width: 7.5em;
   height: 7.5em;
   margin: 0.5em 1em 1em 1em;
 }
 
-.navigationArrow:hover {
+.navigationArrow .arrowText {
+  text-decoration: none;
+  font-size: 2.5em;
+  display: flex;
+  padding-top: 1.4em !important;
+  color: #ffffff;
+}
+
+.navigationArrow:hover img {
   scale: 90%;
   transform: scaleY(90%);
 }
@@ -549,6 +560,10 @@ blockquote .performance::after {
 }
 
 @media only screen and (max-width: 900px) {
+  .navigationArrow .arrowText {
+    display: none;
+  }
+
   .content {
     width: 100%;
     margin-left: 0;
@@ -630,12 +645,4 @@ blockquote .performance::after {
 .transparent {
   background-color: rgba(255, 255, 255, 0) !important;
   box-shadow: none !important;
-}
-
-.brighten {
-  color: hsl(0, 0%, 90%) !important;
-}
-
-.brighten:hover {
-  color: hsl(0, 0%, 100%) !important;
 }
