@@ -88,7 +88,7 @@ img {
   border-radius: 4pt;
 }
 
-#xobse_root {
+#xobseRoot {
   max-width: 60%;
 }
 
@@ -161,7 +161,7 @@ img {
 
 .section ul,
 .section ol {
-  color: #dcdcdc;
+  color: #DCDCDC;
   line-height: 2em;
 }
 
@@ -214,9 +214,8 @@ img {
   box-shadow: 0.1em 0.1em 0.6em rgba(0, 0, 0, 0.6);
   text-align: center;
   z-index: 1;
-  margin-bottom: auto;
-  text-align: center;
 }
+
 
 .welcomeContent .welcomeButton strong {
   color: rgb(242, 242, 242);
@@ -393,6 +392,8 @@ img {
   color: hsl(0, 0%, 70%);
 }
 
+
+
 /* Quotes */
 
 blockquote {
@@ -424,7 +425,7 @@ h1 {
 }
 
 h2 {
-  color: #dcdcdc;
+  color: #DCDCDC;
   font-size: 1.8em;
   word-wrap: break-word;
 }
@@ -612,7 +613,7 @@ blockquote .performance::after {
     line-break: anywhere;
   }
 
-  #xobse_root {
+  #xobseRoot {
     max-width: 90%;
   }
 
