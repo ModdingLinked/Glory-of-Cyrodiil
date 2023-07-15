@@ -19,7 +19,7 @@
     <meta property="og:site_name" content="ModdingLinked">
     <meta property="og:title" content="Glory of Cyrodiil">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://gloryofcyrodiil.moddinglinked.com/">
+    <meta property="og:url" content="https://gloryofcyrodiil.moddinglinked.com">
     <meta property="og:image" content="https://gloryofcyrodiil.moddinglinked.com/img/card.webp">
     <meta property="og:description" content="Clean install and initial launch of the vanilla game.">
 </head>
@@ -34,10 +34,10 @@
         <img src="./img/logo.webp" alt="Logo">
         <a href="./index.html">Glory of Cyrodiil</a>
         <div class="guideLinks">
-            <a href="https://vivanewvegas.moddinglinked.com/" target="_blank" rel="nofollow">Fallout New Vegas</a>
-            <a href="https://thebestoftimes.moddinglinked.com/" target="_blank" rel="nofollow">Tale of Two Wastelands</a>
-            <a href="https://themidnightride.moddinglinked.com/" target="_blank" rel="nofollow">Fallout 4</a>
-            <a href="https://dragonbornsfate.moddinglinked.com/" target="_blank" rel="nofollow">Skyrim Special Edition</a>
+            <a href="https://vivanewvegas.moddinglinked.com" target="_blank" rel="nofollow">Fallout New Vegas</a>
+            <a href="https://thebestoftimes.moddinglinked.com" target="_blank" rel="nofollow">Tale of Two Wastelands</a>
+            <a href="https://themidnightride.moddinglinked.com" target="_blank" rel="nofollow">Fallout 4</a>
+            <a href="https://dragonbornsfate.moddinglinked.com" target="_blank" rel="nofollow">Skyrim Special Edition</a>
         </div>
     </div>
 
@@ -52,7 +52,7 @@
                     <a href="./intro.html">Introduction</a>
                 </li>
                 <li>
-                    <a href="./setup.html" class="active">Initial Setup</a>
+                    <a href="./setup.html" class="active">Setup</a>
                 </li>
                 <li>
                     <a href="./mo2.html">MO2</a>
@@ -101,10 +101,10 @@
         <!-- Guide Links -->
         <div class="guideLinks">
             <hr>
-            <a href="https://vivanewvegas.moddinglinked.com/" target="_blank" rel="nofollow">Fallout New Vegas</a>
-            <a href="https://thebestoftimes.moddinglinked.com/" target="_blank" rel="nofollow">Tale of Two Wastelands</a>
-            <a href="https://themidnightride.moddinglinked.com/" target="_blank" rel="nofollow">Fallout 4</a>
-            <a href="https://dragonbornsfate.moddinglinked.com/" target="_blank" rel="nofollow">Skyrim Special Edition</a>
+            <a href="https://vivanewvegas.moddinglinked.com" target="_blank" rel="nofollow">Fallout New Vegas</a>
+            <a href="https://thebestoftimes.moddinglinked.com" target="_blank" rel="nofollow">Tale of Two Wastelands</a>
+            <a href="https://themidnightride.moddinglinked.com" target="_blank" rel="nofollow">Fallout 4</a>
+            <a href="https://dragonbornsfate.moddinglinked.com" target="_blank" rel="nofollow">Skyrim Special Edition</a>
         </div>
 
         <!-- Footer -->
@@ -129,25 +129,34 @@
 
         <!-- Introduction -->
         <div class="section">
-            <h1>Initial Setup</h1>
+            <h1>Setup</h1>
             <h3>In this step, we will do a clean installation and configuration of the game, which is required for the guide.</h3>
+            <blockquote>
+                If you run into any issues at any point in the guide, please be sure to check the <a href="./faq.html" target="_blank">FAQ.</a>
+                <br>
+                If your issue is not addressed there, join the <a href="https://discord.gg/moddinglinked-659108573485465620" target="_blank">Discord</a> for support.
+            </blockquote>
 
             <!-- Recommended Location -->
             <p>
-                <a>
-                    <h2 id="location">Recommended Installation Location</h2>
+                <a href="#location">
+                    <h2 id="location">Install Location</h2>
                 </a>
             </p>
             A clean installation is not only required to get rid of any potential leftover mod files, but also to make sure the game is installed in a safe location. Here is what you need to know when choosing where to install your game:
             <br>
-            <ul class="standard_ul">
-                <li><b>Avoid any default Windows folders:</b> This includes but is not limited to <code>C:\Program Files</code>, <code>C:\Program Files x86</code>, your <code>Desktop</code>, and your <code>Documents</code> folders. This is due to Windows UAC (or User Account Control), which heavily monitors and protects these folders. This can cause many issues with the game and any modding tools. As an example of a safe location, my Steam directory is <code>C:\Games\Steam</code>.</li>
-                <li><b>Install on an SSD if possible:</b> Having the game on an SSD will drastically improve load times and decrease stuttering.</li>
+            <ul>
+                <li>
+                    <b>Avoid any default Windows folders:</b> This includes but is not limited to <code>C:\Program Files</code>, <code>C:\Program Files x86</code>, your <code>Desktop</code>, and your <code>Documents</code> folders. This is due to Windows UAC (or User Account Control), which heavily monitors and protects these folders. This can cause many issues with the game and any modding tools. An example of a safe location is <code>C:\Games\Steam</code>.
+                </li>
+                <li>
+                    <b>Install on an SSD if possible:</b> Having the game on an SSD will drastically improve load times and decrease stuttering.
+                </li>
             </ul>
 
             <!-- Uninstall -->
             <p>
-                <a>
+                <a href="#uninstall">
                     <h2 id="uninstall">Uninstalling the Game</h2>
                 </a>
             </p>
@@ -163,7 +172,7 @@
             <ol>
                 <li>Open Steam and go to your <strong>Library</strong>.</li>
                 <li>Find <strong>The Elder Scrolls IV: Oblivion</strong> in the list.</li>
-                <li>Right-click on it and select <strong>Manage -> Uninstall</strong>.</li>
+                <li>Right-click on it and select <strong>Manage</strong> -> <strong>Uninstall</strong>.</li>
                 <li>Navigate to <code>Steam\steamapps\common\</code> and, if present, delete the <strong>Oblivion</strong> folder.</li>
                 <li>Navigate to <code>Documents\My Games</code> and delete the <strong>Oblivion</strong> folder.</li>
             </ol>
@@ -205,11 +214,11 @@
                 <li>Type the chosen path under <strong>Path</strong>, e.g. <code>C:\Games\Steam</code></li>
                 <li>Click <strong>Accept</strong> then <strong>Yes</strong> if prompted to create a new folder.</li>
                 <li>The tool will ask to exit, select <strong>OK</strong>.</li>
-                <img width="50%" src="./img/steamlibrarysetuptool.webp" alt="steam library setup tool">
+                <img width="50%" src="./img/steam library setup tool.webp" alt="Steam library setup tool">
                 <li>Open Steam and go to your <strong>Library</strong>.</li>
                 <li>Find <strong>The Elder Scrolls IV: Oblivion</strong> in the list and select <strong>Install</strong>.</li>
-                <li>Under <strong>Choose location for install:</strong>, select the library folder created with the tool.</li>
-                <img size="60%" src="./img/steamlocationpicker.webp" alt="example steam install locations">
+                <li>Under <strong>Choose location for install</strong>:, select the library folder created with the tool.</li>
+                <img size="60%" src="./img/steam location picker.webp" alt="Example Steam install locations">
             </ol>
             <blockquote>If you still do not see your new library, restart your PC.</blockquote>
             <ol start="10">
@@ -227,7 +236,7 @@
                 <li>Find <strong>The Elder Scrolls IV: Oblivion</strong> in the list and select <strong>Install</strong>.</li>
                 <li>Set the <strong>Install to</strong> location to a location of your choice.</li>
                 <ul>
-                    <li>It is recommended to install the game outside of any default Windows folders (e.g., <code>Program Files x86</code>).</li>
+                    <li>It is <strong>required</strong> to install the game outside of any default Windows folders (e.g., <code>Program Files x86</code>).</li>
                 </ul>
             </ol>
 
@@ -242,13 +251,14 @@
             <p>
                 <a href="#terms">
                     <h3 id="terms">Key Terminology</h3>
-                </a> Now that the game is installed, there are two folders from it that will be referred to in the guide often:
+                </a>
             </p>
+            Now that the game is installed, there are two folders from it that will be referred to in the guide often:
             <ul>
                 <li><b>Root</b> folder: Where the game is installed.</li>
                 <ul>
                     <li>For Steam: <code>Steam\steamapps\common\Oblivion</code></li>
-                    <li>For GOG: <code>GOG Galaxy\Games\Oblivion</code> (Unless you manually changed the installation path).</li>
+                    <li>For GOG: <code>GOG Galaxy\Games\Oblivion</code> (unless you manually changed the installation path).</li>
                 </ul>
                 <li><b>Data</b> folder: Where all of the game's assets are located.</li>
                 <ul>
@@ -263,9 +273,9 @@
                     <h3 id="fileExtensions">Enabling File Extensions</h3>
                 </a>
             </p>
-            By default, Windows Explorer will not show file extensions (such as .exe, .dll, or .esp). These extensions are very important when going through the guide, so it is highly recommended to enable file extensions:
+            By default, File Explorer will not show file extensions (such as .exe, .dll, or .esp). These extensions are very important when going through the guide, so it is highly recommended to enable visible file extensions:
             <ol>
-                <li>Open Windows Explorer.</li>
+                <li>Open File Explorer.</li>
                 <li>Select the <strong>View</strong> tab at the top.</li>
                 <li>Enable <strong>File name extensions</strong> in the <strong>Show</strong> section.</li>
                 <img width="60%" src="./img/show file extensions.webp" alt="Show file extensions">
@@ -284,7 +294,7 @@
                     <li>If there aren't any pop-ups, navigate to <code>Documents\My Games\Oblivion</code> and delete all the files ending in <strong>.INI</strong> then retry.</li>
                 </ul>
                 <li>Select <strong>Options</strong> then select the <strong>Ultra High</strong> preset option.</li>
-                <li>Set the <strong>Resolution</strong> option to your preference (The launcher usually does not set it to your monitor's max resolution).</li>
+                <li>Set the <strong>Resolution</strong> option to your preference (the launcher usually does not set it to your monitor's max resolution).</li>
                 <li>Click <strong>Play</strong> then <strong>close the game</strong>.</li>
             </ol>
         </div>
@@ -301,14 +311,17 @@
     <div id="sidenavRight">
         <ul>
             <li>
+                <a href="#location">Install Location</a>
+            </li>
+            <li>
                 <a href="#uninstall">Uninstall</a>
             </li>
             <ul>
                 <li>
-                    <a href="#uninstall_steam">Steam</a>
+                    <a href="#uninstallSteam">Steam</a>
                 </li>
                 <li>
-                    <a href="#uninstall_gog">GOG</a>
+                    <a href="#uninstallGog">GOG</a>
                 </li>
             </ul>
             <li>
@@ -316,24 +329,24 @@
             </li>
             <ul>
                 <li>
-                    <a href="#install_steam">Steam</a>
+                    <a href="#installSteam">Steam</a>
                 </li>
                 <li>
-                    <a href="#install_gog">GOG</a>
+                    <a href="#installGog">GOG</a>
                 </li>
             </ul>
             <li>
-                <a href="#post_install">Post-Install</a>
+                <a href="#postInstall">Post-Install</a>
             </li>
             <ul>
                 <li>
                     <a href="#terms">Key Terms</a>
                 </li>
                 <li>
-                    <a href="#file_extensions">File Extensions</a>
+                    <a href="#fileExtensions">File Extensions</a>
                 </li>
                 <li>
-                    <a href="#generating_inis">INI Files</a>
+                    <a href="#generatingInis">INI Files</a>
                 </li>
             </ul>
         </ul>
