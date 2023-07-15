@@ -170,8 +170,8 @@ img {
 
 .welcomeContent {
   -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   color: rgb(220, 220, 220);
   font-size: 2.2em;
   line-height: 2em;
@@ -186,12 +186,12 @@ img {
   transition: backdrop-filter 0.5s linear;
   transition: backdrop-filter 0.5s linear, -webkit-backdrop-filter 0.5s linear;
   -webkit-backdrop-filter: saturate(100%) blur(8px);
-  backdrop-filter: saturate(100%) blur(8px);
+          backdrop-filter: saturate(100%) blur(8px);
 }
 
 .welcomeContent::before {
   -webkit-backdrop-filter: saturate(100%) blur(8px);
-  backdrop-filter: saturate(100%) blur(8px);
+          backdrop-filter: saturate(100%) blur(8px);
 }
 
 .welcomeContent h1 {
@@ -217,7 +217,6 @@ img {
   border-radius: 12pt;
   text-shadow: none;
   box-shadow: 0.1em 0.1em 0.6em rgba(0, 0, 0, 0.6);
-  text-align: center;
   z-index: 1;
   margin-bottom: auto;
   text-align: center;
@@ -240,7 +239,7 @@ img {
   transition-timing-function: ease-in-out;
   transition-duration: 0.5s;
   -webkit-backdrop-filter: saturate(100%) blur(0.5px);
-  backdrop-filter: saturate(100%) blur(0.5px);
+          backdrop-filter: saturate(100%) blur(0.5px);
 }
 
 .blur h2 {
@@ -296,8 +295,8 @@ img {
   height: 100%;
   position: fixed;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   transition: all 333ms Cubic-Bezier(0, 0, 0, 1);
   padding-top: 4em;
   overflow-x: hidden;
@@ -358,7 +357,7 @@ img {
   z-index: 2;
   right: 0;
   -webkit-backdrop-filter: saturate(10%) blur(32px);
-  backdrop-filter: saturate(10%) blur(32px);
+          backdrop-filter: saturate(10%) blur(32px);
   background-color: rgb(44, 44, 44);
   padding-top: 5em;
   box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.4);
@@ -386,8 +385,8 @@ img {
   margin-right: 5em;
   cursor: pointer;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+          user-select: none;
   float: left;
   transition: all 333ms Cubic-Bezier(0, 0, 0, 1);
 }
@@ -548,80 +547,64 @@ blockquote .performance::after {
     max-height: 0;
     margin-top: -0.12px;
   }
-
   to {
     max-height: 5000px;
   }
 }
-
 @keyframes slide-up {
   from {
     max-height: 1000px;
   }
-
   to {
     max-height: 0;
     margin-top: -0.12px;
   }
 }
-
 @media only screen and (max-width: 900px) {
   .navigationArrow .arrowText {
     display: none;
   }
-
   .content {
     width: 100%;
     margin-left: 0;
     padding: 5em 1em 0 1em;
   }
-
   #sidenavLeft {
     width: 0;
     overflow-y: scroll;
     overflow-x: hidden;
     background-color: rgb(44, 44, 44) !important;
   }
-
   #sideButton {
     margin-left: 0;
     margin-right: 1em;
   }
-
   .titlecontainer .guideLinks {
     margin-top: -100px;
     margin-right: -1000px;
   }
-
   .titlecontainer img {
     display: none;
   }
-
   .titlecontainer a {
     margin-left: -0.5em;
   }
-
   #sidenavLeft .guideLinks {
     display: block;
   }
-
   #sidenavRight {
     width: 0%;
   }
-
   h1,
   h2 {
     line-height: 1.2em;
   }
-
   code {
     line-break: anywhere;
   }
-
   #xobseRoot {
     max-width: 90%;
   }
-
   .performance::after,
   .optional::after {
     display: flex;
@@ -636,22 +619,17 @@ blockquote .performance::after {
     margin-left: 0;
   }
 }
-
 @media only screen and (max-width: 700px) {
   .titlecontainer a {
     font-size: 180%;
   }
 }
-
 @media only screen and (min-width: 901px) {
   #sideButton {
     margin-left: -100px;
   }
 }
-
 .transparent {
   background-color: rgba(255, 255, 255, 0) !important;
   box-shadow: none !important;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
