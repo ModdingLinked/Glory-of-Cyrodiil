@@ -7,52 +7,32 @@
 		<lastmod>2023-06-08</lastmod>
 	</url>
 	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/index.html</loc>
-		<priority>0.80</priority>
-		<lastmod>2023-06-08</lastmod>
-	</url>
-	<url>
 		<loc>https://gloryofcyrodiil.moddinglinked.com/intro.html</loc>
 		<priority>0.80</priority>
 		<lastmod>2023-06-24</lastmod>
 	</url>
 	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/setup.html</loc>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/index.html</loc>
+		<priority>0.80</priority>
+		<lastmod>2023-06-08</lastmod>
+	</url>
+	<url>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/avoid-mods.html</loc>
+		<priority>0.64</priority>
+		<lastmod>2023-07-17</lastmod>
+	</url>
+	<url>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/avoid-tools.html</loc>
+		<priority>0.64</priority>
+		<lastmod>2023-07-17</lastmod>
+	</url>
+	<url>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/faq.html</loc>
 		<priority>0.64</priority>
 		<lastmod>2023-06-24</lastmod>
 	</url>
 	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/mo2.html</loc>
-		<priority>0.64</priority>
-		<lastmod>2023-06-24</lastmod>
-	</url>
-	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/utilities.html</loc>
-		<priority>0.64</priority>
-		<lastmod>2023-06-24</lastmod>
-	</url>
-	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/bugfix.html</loc>
-		<priority>0.64</priority>
-		<lastmod>2023-07-16</lastmod>
-	</url>
-	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/hud.html</loc>
-		<priority>0.64</priority>
-		<lastmod>2023-06-24</lastmod>
-	</url>
-	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/gameplay.html</loc>
-		<priority>0.64</priority>
-		<lastmod>2023-06-24</lastmod>
-	</url>
-	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/overhauls.html</loc>
-		<priority>0.64</priority>
-		<lastmod>2023-06-24</lastmod>
-	</url>
-	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/visuals.html</loc>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/appendix.html</loc>
 		<priority>0.64</priority>
 		<lastmod>2023-06-24</lastmod>
 	</url>
@@ -62,33 +42,53 @@
 		<lastmod>2023-07-16</lastmod>
 	</url>
 	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/appendix.html</loc>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/visuals.html</loc>
 		<priority>0.64</priority>
 		<lastmod>2023-06-24</lastmod>
 	</url>
 	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/faq.html</loc>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/overhauls.html</loc>
 		<priority>0.64</priority>
 		<lastmod>2023-06-24</lastmod>
 	</url>
 	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/avoid-tools.html</loc>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/gameplay.html</loc>
 		<priority>0.64</priority>
-		<lastmod>2023-07-17</lastmod>
+		<lastmod>2023-06-24</lastmod>
 	</url>
 	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/avoid-mods.html</loc>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/hud.html</loc>
 		<priority>0.64</priority>
-		<lastmod>2023-07-17</lastmod>
+		<lastmod>2023-06-24</lastmod>
 	</url>
 	<url>
-		<loc>https://gloryofcyrodiil.moddinglinked.com/changelog.html</loc>
-		<priority>0.51</priority>
-		<lastmod>2023-07-17</lastmod>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/bugfix.html</loc>
+		<priority>0.64</priority>
+		<lastmod>2023-07-16</lastmod>
+	</url>
+	<url>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/utilities.html</loc>
+		<priority>0.64</priority>
+		<lastmod>2023-06-24</lastmod>
+	</url>
+	<url>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/mo2.html</loc>
+		<priority>0.64</priority>
+		<lastmod>2023-06-24</lastmod>
+	</url>
+	<url>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/setup.html</loc>
+		<priority>0.64</priority>
+		<lastmod>2023-06-24</lastmod>
 	</url>
 	<url>
 		<loc>https://gloryofcyrodiil.moddinglinked.com/resources.html</loc>
 		<priority>0.51</priority>
 		<lastmod>2023-06-24</lastmod>
+	</url>
+	<url>
+		<loc>https://gloryofcyrodiil.moddinglinked.com/changelog.html</loc>
+		<priority>0.51</priority>
+		<lastmod>2023-07-19</lastmod>
 	</url>
 </urlset>
