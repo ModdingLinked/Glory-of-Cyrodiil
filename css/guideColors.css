@@ -1,0 +1,21 @@
+strong {
+  color: #a18c4b;
+}
+
+body {
+  background-color: #313029 !important;
+}
+
+.sidebar,
+.header,
+.popup {
+  background: #292823 !important;
+}
+
+.sidebar .active::before {
+  background-color: #a18c4b !important;
+}
+
+textarea {
+  border-color: #a18c4b !important;
+}

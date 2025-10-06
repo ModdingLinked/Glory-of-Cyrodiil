@@ -5,14 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="preload" href="./css/style.css" as="style" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="img/logo.webp">
-    <link rel="canonical" href="https://gloryofcyrodiil.moddinglinked.com">
-    <script src="https://kit.fontawesome.com/e15125fcf7.js" crossorigin="anonymous"></script>
-    <script src="javascript.js"></script>
+    <link rel="icon" href="img/Coco/Head Logo.webp">
+
     <title>Changelog | Glory of Cyrodiil</title>
-    <meta name="keywords" content="Fallout New Vegas, FNV, Fallout NV, Fallout, New Vegas, Oblivion, TESIV, TES4, The Elder Scrolls, FO4, SSE, SkyrimSE, Skyrim Special Edition, Guide, Mod, Mods, Modding Guide, Bethesda, Stable, Performance, Fix, Help, DXVK, Fast, Easy, Tutorial, Mod Organizer, Nexus, Fallout 4, Skyrim, Tale of Two Wastelands">
+
+    <meta name="keywords" content="
+    Mod, Modding, Mods, Guide, Mod Guide, Modding Guide, Resource, Resources,
+    Stable, Stability, Performance, Fix, Fixes, FPS,
+    Fast, Easy, Beginner,
+    Nexus, Nexus Mods, NexusMods,
+    Wabbajack, WJ, Installer,
+    Mod Manager, Mod Organizer, MO2,
+    Fallout, The Elder Scrolls, Bethesda, Bethesda Game Studios, BGS,
+    Fallout New Vegas, Fallout NV, New Vegas, FNV, 
+    Fallout 4, FO4,
+    Tale of Two Wastelands, TTW,
+    Skyrim Special Edition, Skyrim SE, SSE,
+    Oblivion, TES4">
+
     <meta name="description" content="Catalog of all changes made to the guide.">
     <meta http-equiv='content-language' content='en-us'>
     <meta name="twitter:card" value="summary_large_image">
@@ -20,250 +30,502 @@
     <meta property="og:title" content="Glory of Cyrodiil">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://gloryofcyrodiil.moddinglinked.com">
-    <meta property="og:image" content="https://gloryofcyrodiil.moddinglinked.com/img/card.webp">
+    <meta property="og:image" content="https://gloryofcyrodiil.moddinglinked.com/img/Others/Card.webp">
     <meta property="og:description" content="Catalog of all changes made to the guide.">
+
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#292c35">
+    <meta name="darkreader-lock">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <meta http-equiv='clear-site-data' content='cache'>
+
+    <script src="js/popup.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/responsiveTitle.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navigationArrows.css">
+    <link rel="stylesheet" href="css/progressBar.css">
+    <link rel="stylesheet" href="css/guideColors.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/images.css">
 </head>
 
-<body>
+<body class="theme">
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
 
-    <!-- Titlebar -->
-    <div class="titlecontainer">
-        <div id="sideButton" onclick="toggleNav()">
-            <i class="fa-solid fa-bars"></i>
+    <div class="container">
+        <div class="header">
+            <div class="headerMenu" onclick="toggleNav()">
+                <img src="./img/UI/Navigation.svg" id="navButton">
+            </div>
+            <div class="headerTitle">
+                <img src="./img/Coco/Head Logo.webp" alt="Logo" id="logo">
+                <a href="./index.html" id="headerTitle">Glory of Cyrodiil</a>
+            </div>
+            <div class="guideLinks" id="headerLinks">
+                <a href="https://vivanewvegas.moddinglinked.com" target="_blank" rel="nofollow">Fallout: New Vegas</a>
+                <a href="https://thebestoftimes.moddinglinked.com" target="_blank" rel="nofollow">Tale of Two Wastelands</a>
+                <a href="https://themidnightride.moddinglinked.com" target="_blank" rel="nofollow">Fallout 4</a>
+                <a href="https://dragonbornsfate.moddinglinked.com" target="_blank" rel="nofollow">Skyrim Special Edition</a>
+            </div>
         </div>
-        <img src="./img/logo.webp" alt="Logo">
-        <a href="./index.html">Glory of Cyrodiil</a>
-        <div class="guideLinks">
-            <a href="https://vivanewvegas.moddinglinked.com" target="_blank" rel="nofollow">Fallout New Vegas</a>
-            <a href="https://thebestoftimes.moddinglinked.com" target="_blank" rel="nofollow">Tale of Two Wastelands</a>
-            <a href="https://themidnightride.moddinglinked.com" target="_blank" rel="nofollow">Fallout 4</a>
-            <a href="https://dragonbornsfate.moddinglinked.com" target="_blank" rel="nofollow">Skyrim Special Edition</a>
+
+        <div class="sidebar left-sidebar">
+            <p class="pageLinks">
+                <a href="./index.html" title="Home">
+                    Home
+                </a>
+
+                <a href="./intro.html" title="Introduction">
+                    Introduction
+                </a>
+
+                <a href="./setup.html" title="Setup">
+                    Setup
+                </a>
+
+                <a href="./mo2.html" title="MO2">
+                    Mod Organizer 2
+                </a>
+
+                <a href="./utilities.html" title="Utilities">
+                    Utilities
+                </a>
+
+                <a href="./bugfix.html" title="Bug Fixes">
+                    Bug Fixes
+                </a>
+
+                <a href="./basefinish.html" title="Base Finish">
+                    Base Finish
+                </a>
+            </p>
+            <hr>
+            <p class="pageLinks">
+                <a href="./extrautilities.html" title="Extra Utilities">
+                    Extra Utilities
+                </a>
+                <a href="./hud.html" title="User Interface">
+                    User Interface
+                </a>
+                <a href="./animations.html" title="Animations">
+                    Animations
+                </a>
+                <a href="./tweaks.html" title="Tweaks">
+                    Tweaks
+                </a>
+                <a href="./gameplay.html" title="Gameplay">
+                    Gameplay
+                </a>
+                <a href="./content.html" title="Content">
+                    Content
+                </a>
+                <a href="./visuals.html" title="Visuals">
+                    Visuals
+                </a>
+                <a href="./finish.html" title="Extended Finish">
+                    Extended Finish
+                </a>
+            </p>
+            <hr>
+            <p>
+                <a href="./changelog.html" title="Changelog">
+                    Changelog
+                </a>
+
+                <a href="./resources.html" title="Resources">
+                    Resources
+                </a>
+
+                <a href="./lod.html" title="LOD Guide" class="sublink">
+                    LOD Guide
+                </a>
+
+                <a href="./faq.html" title="FAQ">
+                    FAQ
+                </a>
+
+                <a href="./avoid-tools.html" title="Tools to Avoid">
+                    Tools to Avoid
+                </a>
+
+                <a href="./avoid-mods.html" title="Mods to Avoid">
+                    Mods to Avoid
+                </a>
+            </p>
+            <p class="sidebar-padder"></p>
+            <hr>
+            <p class="sidebar-bottom">
+                <a href="https://discord.gg/S99Ary5eba" title="Discord">
+                    Discord
+                </a>
+                <a title="Donate" class="popup-button" id="donation-button" onclick="openPopup(this, donation)">
+                    Donate
+                </a>
+                <a href="https://github.com/ModdingLinked/Glory-of-Cyrodiil" title="GitHub">
+                    GitHub
+                </a>
+            </p>
+        </div>
+
+        <div class="card popup" id="donation">
+            <ul>
+                <li>
+                    <a href="https://www.patreon.com/moddinglinked" target="_blank" rel="nofollow">Patreon</a>
+                </li>
+                <li>
+                    <a href="https://www.paypal.me/Ungeziefi" target="_blank" rel="nofollow">PayPal</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+
+            <span id="Changelog" class="section">
+                <h2 onclick="location.href='#Changelog'">Changelog</h2>
+
+                <div class="expander-top">
+                    <p>
+                    <h3>2025</h3>
+                    <img class="chevron" style="transform: rotateX(0deg);" src="img/UI/Chevron Down.svg" alt="UI element - Chevron">
+                    </p>
+                </div>
+                <div class="expander-bottom">
+                    <p>
+                    <h2 class="install">Oct 5</h2>
+                    <h3>Safe Mid-game</h3>
+                    <h2><strong>Utilities</strong></h2>
+                    <ul>
+                        <li>Fixed the recommended refresh rates and improved clarity. Also added a link to NVidia's official G-Sync monitors list (as a reference for VRR ranges).</li>
+                    </ul>
+                    <h2><strong>Wabbajack</strong></h2>
+                    <ul>
+                        <li>Fixed missing Always Enabled flags on the mods with 2 versions installed (Steam and GOG).</li>
+                    </ul>
+
+                    <hr>
+
+                    <h2 class="install">Oct 3</h2>
+                    <h3>Safe Mid-game</h3>
+                    <h2><strong>Utilities</strong></h2>
+                    <ul>
+                        <li>Added a calculator to the Display Tweaks instructions, it takes your refresh rate and outputs the optimal FPS limit(s) (or range for VRR).</li>
+                    </ul>
+                    <h2><strong>Visuals</strong></h2>
+                    <ul>
+                        <li>Fixed missing link to Community Shaders.</li>
+                    </ul>
+
+                    <hr>
+
+                    <p>
+                    <h2 class="install">Sep 30</h2>
+                    <h3>Safe Mid-game</h3>
+                    <h2><strong>Wabbajack</strong></h2>
+                    <ul>
+                        <li>Fixed hash error on install.</li>
+                        <li>Updated the following mods:
+                            <ul>
+                                <li>Community Shaders (1.4.2)</li>
+                                <li>Skylighting (1.2.1)</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <h2 class="install">Sep 27</h2>
+                    <h3>Safe Mid-game</h3>
+                    <h2><strong>Bug Fixes</strong></h2>
+                    <ul>
+                        <li>Switched from DBF's USSEP book removal to Pheonix's, which is now fixed and compatible with USSEP >=4.3.6c.</li>
+                    </ul>
+                    <h2><strong>User Interface</strong></h2>
+                    <ul>
+                        <li>Moved Description Framework to the Extra Utilities section.</li>
+                    </ul>
+                    <h2><strong>Animations</strong></h2>
+                    <ul>
+                        <li>Updated the DBF Pre-Generated Pandora Output for Pandora 4.0.4-beta.</li>
+                    </ul>
+                    <h2><strong>Visuals</strong></h2>
+                    <ul>
+                        <li>Replaced Azurite Weathers with Better Vanilla Weather for closer visuals to vanilla.</li>
+                        <li>Added the following mods:
+                            <ul>
+                                <li>Static Mesh Improvement Mod - USSEP Patch</li>
+                                <li>Terrain Blending - Community Shaders</li>
+                            </ul>
+                        </li>
+                        <li>Removed the following mods:
+                            <ul>
+                                <li>Community Shaders - DBF Configuration, no longer necessary thanks to the new Community Shaders defaults in >=1.4.0.</li>
+                                <li>Light Limit Fix, it's now part of Community Shaders >=1.4.0.</li>
+                                <li>Terrain Shadows - Heightmaps, the DBF Pre-Generated LOD now correctly includes heightmaps and the LOD Guide provides a script to split it from your generated output, allowing you to pack LOD without breaking heightmaps (Terrain Shadows can't read inside BSAs).</li>
+                                <li>Hair Specular, it doesn't do a lot in DBF considered we don't revamp characters. It also needed patching that the guide failed to mention.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h2><strong>LOD Guide</strong></h2>
+                    <ul>
+                        <li>Removed the warning about Skyrim Misc Bugfix Compilation, as it's now fixed with >=2.0.</li>
+                        <li>Set LOD32 Optimize Unseen back to 550, the breakage seen previously was either a hallucination or a result of some other issue no longer present.</li>
+                        <li>Bumped up the texture resolution of LOD32 from 256 to 512 to noticeably reduce its blurriness.</li>
+                        <li>Simplified DynDOLOD instructions thanks to the new LOD32 button in its GUI.</li>
+                        <li>Added steps to split the heightmaps from the generated terrain LOD by using a new script, as mentioned above.</li>
+                        <li>Updated the DBF Pre-Generated LOD.</li>
+                    </ul>
+                    <h2><strong>Wabbajack</strong></h2>
+                    <ul>
+                        <li>Updated to reflect the changes above.</li>
+                        <li>Updated the following mods:
+                            <ul>
+                                <li>Unofficial Skyrim Special Edition Patch - USSEP (4.3.6c)</li>
+                                <li>Skyrim Misc Bugfix Compilation (2.4a)</li>
+                                <li>SSE Engine Fixes (skse64 plugin) (7.0.19)</li>
+                                <li>powerofthree's Tweaks (1.15.1)</li>
+                                <li>Zero Bounty Hostility Fix (0.5)</li>
+                                <li>Description Framework (2.1.2)</li>
+                                <li>Skyrim Cut Content Restoration (2.2.2)</li>
+                                <li>Assorted mesh fixes (0.129.1)</li>
+                                <li>Simplicity of Sea (0.8)</li>
+                                <li>Community Shaders (1.4.1)</li>
+                                <li>Grass Collision (2.1.0)</li>
+                                <li>Screen Space Shadows (2.0.0)</li>
+                                <li>Subsurface Scattering (3.0.0)</li>
+                                <li>Wetness Effects (3.0.0)</li>
+                                <li>Screen Space Global Illumination (SSGI) (4.0.0)</li>
+                                <li>Skylighting (1.2.0)</li>
+                                <li>Terrain Variation (1.0.1)</li>
+                                <li>DynDOLOD DLL NG (Alpha-39)</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <hr>
+
+                    <h2 class="install">Aug 17</h2>
+                    <h3>Safe Mid-game</h3>
+                    <h2><strong>Utilities</strong></h2>
+                    <ul>
+                        <li>Removed the EnableTearing steps during the installation of Display Tweaks, it can be left disabled as it's not actually a requirement for VRR (the Microsoft documentation is wrong).</li>
+                    </ul>
+                    <h2><strong>Extra Utilities</strong></h2>
+                    <ul>
+                        <li>Removed SkyPatcher, the removal of DIAL makes it unused.</li>
+                    </ul>
+                    <h2><strong>Animations</strong></h2>
+                    <ul>
+                        <li>Updated the DBF Pre-Generated Pandora Output for Pandora 3.2.0-beta.</li>
+                    </ul>
+                    <h2><strong>Visuals</strong></h2>
+                    <ul>
+                        <li>Removed the following mods:
+                            <ul>
+                                <li>Dynamic Interior Ambient Lighting (DIAL), it introduces some annoying conflicts even though SkyPatcher is supposed to help. The new CS SkySync improves the look of interiors to compensate a little.</li>
+                                <li>CS Particle Patch, the performance impact is too high compared to other features.</li>
+                            </ul>
+                        </li>
+                        <li>Added all the new CS addons:
+                            <ul>
+                                <li>Extended Translucency</li>
+                                <li>Terrain Variation</li>
+                                <li>Sky Sync</li>
+                                <li>Hair Specular</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h2><strong>LOD Guide</strong></h2>
+                    <ul>
+                        <li>Set LOD32 Optimize Unseen to on, fixing broken minor worldspaces such as Soul Cairn.</li>
+                        <li>Updated the DBF Pre-Generated Object LOD.</li>
+                    </ul>
+                    <h2><strong>Wabbajack</strong></h2>
+                    <ul>
+                        <li>A Wabbajack modlist and section are now available.</li>
+                    </ul>
+
+                    <hr>
+
+                    <h2 class="install">May 31</h2>
+                    <h3>Safe Mid-game</h3>
+                    <h2><strong>Bug Fixes</strong></h2>
+                    <ul>
+                        <li>Removed DEEJMASTER's Mini Mods Tweaks and Fixes, all of its fixes were merged in Skyrim Misc Bugfix Compilation >=1.2.</li>
+                    </ul>
+                    <h2><strong>Gameplay</strong></h2>
+                    <ul>
+                        <li>Added a new SMI SKSE - Skyrim Misc Bugfix Compilation Patch, made necessary by Skyrim Misc Bugfix Compilation >=1.2.</li>
+                    </ul>
+                    <h2><strong>Animations</strong></h2>
+                    <ul>
+                        <li>Removed Animated Interactions SKSE, it feels a bit out of the guide's scope. It also might be causing issues with NPCs opening doors.</li>
+                        <li>Updated the DBF Pre-Generated Pandora Output to reflect the change above.</li>
+                        <li>Removed the Pandora Skeleton and Draugr Hotfix, it's merged in Pandora >=2.7.0-beta.</li>
+                    </ul>
+
+                    <hr>
+
+                    <h2 class="install">May 25</h2>
+                    <h3>Safe Mid-game</h3>
+                    <h2><strong>Tweaks</strong></h2>
+                    <ul>
+                        <li>Added a missing mention of the To Your Face AE GOG file for GOG users.</li>
+                        <li>Moved Immersive Equipment Displays and Simple Dual Sheath to the Animations section.</li>
+                    </ul>
+                    <h2><strong>Animations</strong></h2>
+                    <ul>
+                        <li>Added Weapon Styles - Draw-Sheathe animations for IED and its requirement, Open Animation Replacer - IED Conditions.</li>
+                        <li>Updated the Pandora instructions to include enabling the new Weapon Styles (Extra Drawing Animations) patch during generation.</li>
+                        <li>Updated the DBF Pre-Generated Pandora Output to reflect the change above.</li>
+                    </ul>
+                    <h2><strong>Visuals</strong></h2>
+                    <ul>
+                        <li>Removed the patches for DIAL, as it now uses SkyPatcher. The latter was added to the Extra Utilities section.</li>
+                    </ul>
+
+                    <hr>
+
+                    <h2 class="install">May 15</h2>
+                    <h3>Safe Mid-game</h3>
+                    <h2><strong>Whole Guide</strong></h2>
+                    <ul>
+                        <li>Added 2 new sections:
+                            <ul>
+                                <li>Extra Utilities, hosting all of the utilities you might need while following DBF Extended.</li>
+                                <li>Animations, which also covers the use of Pandora (DBF users can just download the output).</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h2><strong>Utilities</strong></h2>
+                    <ul>
+                        <li>Added a step during the installation of Display Tweaks to block new loading screens from DynDOLOD.esp.</li>
+                    </ul>
+                    <h2><strong>User Interface</strong></h2>
+                    <ul>
+                        <li>Made MCM Helper part of the SkyUI instructions.</li>
+                        <li>Added the missing requirement for Show Follower Carry Weight, Rogue's Gallery. This is now part of the new Extra Utilities section.</li>
+                    </ul>
+                    <h2><strong>Tweaks</strong></h2>
+                    <ul>
+                        <li>Added the missing XPMSSE Left Hand Sheath Rotation Fix when using Simple Dual Sheath.</li>
+                        <li>Added the following mods:
+                            <ul>
+                                <li>Immersive Equipment Displays, which renders the file that was missing for SDS redundant (added a note about this for users who skip IED).</li>
+                                <li>Nifty AI Tweaks AIO - SSE</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h2><strong>Content</strong></h2>
+                    <ul>
+                        <li>Added Skyrim Cut Content Restoration.</li>
+                    </ul>
+                    <h2><strong>Visuals</strong></h2>
+                    <ul>
+                        <li>
+                            Replaced Simple Lighting Overhaul with Dynamic Interior Ambient Lighting (DIAL), along with the 2 required patches:
+                            <ul>
+                                <li>DIAL - USSEP Patch</li>
+                                <li>DIAL - Misc Bugfix Compilation Patch</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h2><strong>Resources</strong></h2>
+                    <ul>
+                        <li>Added a link to Darkfox127's series of tutorials.</li>
+                        <li>Added a guide on grass cache and grass LOD.</li>
+                    </ul>
+
+                    <hr>
+
+
+                    <h2 class="install">May 12</h2>
+                    <h3>NOT Safe Mid-game</h3>
+                    <h2><strong>Whole Guide</strong></h2>
+                    <ul>
+                        <li>Added support for GOG.</li>
+                    </ul>
+                    <h2><strong>Bug Fixes</strong></h2>
+                    <ul>
+                        <li>Added the following mods:
+                            <ul>
+                                <li>DEEJMASTER's Mini Mods Tweaks and Fixes</li>
+                                <li>Skyrim Misc Bugfix Compilation</li>
+                                <li>Dragon Leveled List Fixes</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <h2><strong>User Interface</strong></h2>
+                    <ul>
+                        <li>Added QuickLoot IE - A QuickLoot EE Fork and its requirement, PapyrusUtil SE. Also added the QuickLoot IE - Inventory style retexture for it.</li>
+                    </ul>
+                    <h2><strong>Tweaks</strong></h2>
+                    <ul>
+                        <li>Added Better Third Person Selection - BTPS and its requirement, JContainers.</li>
+                    </ul>
+                    <h2><strong>Visuals</strong></h2>
+                    <ul>
+                        <li>Added No Camera Attached Smoke or Fog for users of CS Particle Patch, improving performance.</li>
+                        <li>Added a patch between Simple Lighting Overhaul and the newly added Skyrim Misc Bugfix Compilation.</li>
+                    </ul>
+                    <h2><strong>Extended Finish</strong></h2>
+                    <ul>
+                        <li>Documented the changes applied by the DBF CS configuration.</li>
+                        <li>Added a note about switching to DLAA if you have an RTX GPU, improving performance.</li>
+                    </ul>
+                    <h2><strong>LOD Guide</strong></h2>
+                    <ul>
+                        <li>Updated the Whiterun comparison images and added one to showcase a child worldspace (from Dragonsreach).</li>
+                        <li>Regenerated the DBF Pre-Generated Terrain LOD, it used LOD32 512 resolutions instead of 256. You don't need to reinstall the file, as it changed almost nothing in practice (reason why we just use the 256 default).</li>
+                        <li>Switched from DynDOLOD DLL SE to NG, and added steps to clean the base game plugins so that the large refs workarounds in DynDOLOD can be used, as it was still present with the previous setup.</li>
+                        <li>Updated DynDOLOD settings for greater detail.</li>
+                        <li>Updated the DBF Pre-Generated Object LOD to reflect the 2 changes above.</li>
+                    </ul>
+
+                    <hr>
+
+                    <h2 class="install">May 10</h2>
+                    <h2><strong>Utilities</strong></h2>
+                    <ul>
+                        <li>Added steps during the Display Tweaks configuration to switch FramerateLimitMode to 1 for VRR users, which gives better framepacing.</li>
+                    </ul>
+                    <h2><strong>LOD Guide</strong></h2>
+                    <ul>
+                        <li>Added a missing step to disable the Temp Snow Replacement after terrain LOD generation, don't forget this!</li>
+                    </ul>
+                    <h2><strong>ESL Guide</strong></h2>
+                    <ul>
+                        <li>Mentioned the 2 known bugs with ESL cells.</li>
+                    </ul>
+
+                    <hr>
+
+                    <h2 class="install">May 9</h2>
+                    <h2><strong>Whole Guide</strong></h2>
+                    <ul>
+                        <li>Release.</li>
+                    </ul>
+                    </p>
+                </div>
+            </span>
+
+            <div class="navigationArrowContainer">
+                <a href="#" id="previous" rel="prev" class="navigationArrow">
+                    <img class="mirror" src="./img/UI/Arrow.svg" alt="Back Arrow">
+                    <span class="arrowText"></span>
+                </a>
+            </div>
         </div>
     </div>
 
-    <!-- Left Sidebar -->
-    <div id="sidenavLeft">
-        <div>
-            <ul>
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./intro.html">Introduction</a>
-                </li>
-                <li>
-                    <a href="./setup.html">Setup</a>
-                </li>
-                <li>
-                    <a href="./mo2.html">MO2</a>
-                </li>
-                <li>
-                    <a href="./utilities.html">Utilities</a>
-                </li>
-                <li>
-                    <a href="./bugfix.html">Bug Fixes</a>
-                </li>
-                <li>
-                    <a href="./hud.html">User Interface</a>
-                </li>
-                <li>
-                    <a href="./gameplay.html">Gameplay</a>
-                </li>
-                <li>
-                    <a href="./overhauls.html">Overhauls</a>
-                </li>
-                <li>
-                    <a href="./visuals.html">Visuals</a>
-                </li>
-                <li>
-                    <a href="./finish.html">Final Steps</a>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <hr>
-            <ul>
-                <li>
-                    <a href="./appendix.html">Appendix</a>
-                </li>
-                <ul>
-                    <li>
-                        <a href="./changelog.html" class="active">Changelog</a>
-                    </li>
-                </ul>
-                <li>
-                    <a href="./faq.html">FAQ</a>
-                </li>
-                <li>
-                    <a href="./avoid-tools.html">Tools to Avoid</a>
-                </li>
-                <li>
-                    <a href="./avoid-mods.html">Mods to Avoid</a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Guide Links -->
-        <div class="guideLinks">
-            <hr>
-            <ul>
-                <li>
-                    <a href="https://vivanewvegas.moddinglinked.com" target="_blank" rel="nofollow">Fallout New Vegas</a>
-                </li>
-                <li>
-                    <a href="https://thebestoftimes.moddinglinked.com" target="_blank" rel="nofollow">Tale of Two Wastelands</a>
-                </li>
-                <li>
-                    <a href="https://themidnightride.moddinglinked.com" target="_blank" rel="nofollow">Fallout 4</a>
-                </li>
-                <li>
-                    <a href="https://dragonbornsfate.moddinglinked.com" target="_blank" rel="nofollow">Skyrim Special Edition</a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Footer -->
-        <div id="footer">
-            <ul>
-                <li>
-                    <a href="https://discord.gg/S99Ary5eba" target="_blank">
-                        <i class="fab fa-discord"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.paypal.com/paypalme/VishVadeva" target="_blank">
-                        <i class="fab fa-paypal"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/WallSoGB/Glory-of-Cyrodiil" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-
-    <!-- Content -->
-    <div class="content">
-        <div class="section">
-            <h1>Changelog</h1>
-            <h2>Time formatted in DD/MM/YY</h2>
-            <hr>
-            <h2 class="install">14/10/23</h2>
-            <h2><strong>Utilities</strong></h2>
-            <ul>
-                <li>Updated ORC and its configuration to 1.9.2.1.</li>
-            </ul>
-            <hr>
-            <h2 class="install">11/10/23</h2>
-            <h2><strong>Bug Fixes</strong></h2>
-            <ul>
-                <li>Removed Creature Spawn Chance Fix because it is not actually required (more information in the pinned post).</li>
-            </ul>
-            <hr>
-            <h2 class="install">30/7/23</h2>
-            <h2><strong>Utilities</strong></h2>
-            <ul>
-                <li>Fixed missing option in the ORC Custom Configuration.</li>
-            </ul>
-            <hr>
-            <h2 class="install">23/7/23</h2>
-            <h2><strong>MO2</strong></h2>
-            <ul>
-                <li>Switched back to portable instance for consistency with the TBoT video guide and the Wabbajacks.</li>
-            </ul>
-            <hr>
-            <h2 class="install">8/7/23</h2>
-            <h2><strong>Utilities</strong></h2>
-            <ul>
-                <li>Updated the ORC Custom Configuration with a fix for the camera, less LOD pop-in and better interior lighting.</li>
-            </ul>
-            <hr>
-            <h2 class="install">3/6/23</h2>
-            <h2><strong>Utilities</strong></h2>
-            <ul>
-                <li>Moved ORC here from Visuals.</li>
-            </ul>
-            <hr>
-            <h2 class="install">27/5/23</h2>
-            <h2><strong>MO2</strong></h2>
-            <ul>
-                <li>Switched to the 2.4.5 Alpha 3 version to fix the alphabetic load order issues and bring some QoL features.</li>
-            </ul>
-            <h2><strong>User interface</strong></h2>
-            <ul>
-                <li>Removed Class Portraits Diversified (the guide is supposed to be basic).</li>
-            </ul>
-            <h2><strong>Visuals</strong></h2>
-            <ul>
-                <li>Disabled even more bullshit from ORC.</li>
-            </ul>
-            <hr>
-            <h2 class="install">22/5/23</h2>
-
-            <h2><strong>Visuals</strong></h2>
-            <ul>
-                <li>Disabled more bullshit from ORC.</li>
-                <li>Switched from NAO - Brighter Nights Patch to NAO - Even Brighter Nights and Closer Fog.</li>
-            </ul>
-            <hr>
-            <h2 class="install">16/5/23</h2>
-            <h2><strong>Utilities</strong></h2>
-            <ul>
-                <li>Removed Blockhead because it was only added for the character creation spinning and it turns out it's janky.</li>
-                <li>Added Crash Logger.</li>
-            </ul>
-            <h2><strong>FAQ</strong></h2>
-            <ul>
-                <li>Added steps in case your game refuses to start.</li>
-            </ul>
-            <hr>
-            <h2 class="install">14/5/23</h2>
-            <h2><strong>Overhauls</strong></h2>
-            <ul>
-                <li>Added the following mods:</li>
-                <ul>
-                    <li>Ascension</li>
-                    <li>Ascension - Better Clutter Icons</li>
-                    <li>All the patches needed between Ascension and the rest of the guide, merged into 1 download</li>
-                </ul>
-            </ul>
-            <h2><strong>Visuals</strong></h2>
-            <ul>
-                <li>Added NAO - Brighter Nights Patch.</li>
-                <li>Edited the ORC Custom INI to increase heap size (leads to better performance), disable the buggy 1st person camera, the low res godrays and the main menu randomizer.</li>
-            </ul>
-            <h2><strong>Final Steps</strong></h2>
-            <ul>
-                <li>Fixed load order.</li>
-            </ul>
-            <hr>
-            <h2 class="install">13/5/23</h2>
-            <h2><strong>Utilities</strong></h2>
-            <ul>
-                <li>Added Simple Saves Plus.</li>
-            </ul>
-            <h2><strong>User Interface</strong></h2>
-            <ul>
-                <li>Added NorthernUI Rumble.</li>
-            </ul>
-            <h2><strong>Gameplay</strong></h2>
-            <ul>
-                <li>Added Attribute Progression Redesign.</li>
-            </ul>
-            <h2><strong>Visuals</strong></h2>
-            <ul>
-                <li>Added the ORC Custom INI (increases AF to x16, disables random difficulty, the horrible FPS management and more).</li>
-            </ul>
-        </div>
-
-        <!-- Arrows -->
-        <div>
-            <hr>
-            <a href="./appendix.html" id="previous" rel="prev" class="navigationArrow"><img class="left mirror" src="./img/arrow.webp" alt="Back Arrow"><span class="arrowText left">Appendix</span></a>
-        </div>
-    </div>
+    <footer>ModdingLinked 2025</footer>
 </body>
 
 </html>

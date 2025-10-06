@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="img/Coco/Head Logo Extended.webp">
 
-    <title>Finish | Glory of Cyrodiil</title>
+    <title>Tweaks | Glory of Cyrodiil</title>
 
     <meta name="keywords" content="
     Mod, Modding, Mods, Guide, Mod Guide, Modding Guide, Resource, Resources,
@@ -23,7 +23,7 @@
     Skyrim Special Edition, Skyrim SE, SSE,
     Oblivion, TES4">
 
-    <meta name="description" content="Final steps necessary before playing the game.">
+    <meta name="description" content="Various tweaks to improve annoying aspects of the game.">
     <meta http-equiv='content-language' content='en-us'>
     <meta name="twitter:card" value="summary_large_image">
     <meta property="og:site_name" content="ModdingLinked">
@@ -31,7 +31,7 @@
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://gloryofcyrodiil.moddinglinked.com">
     <meta property="og:image" content="https://gloryofcyrodiil.moddinglinked.com/img/Others/Card.webp">
-    <meta property="og:description" content="Final steps necessary before playing the game.">
+    <meta property="og:description" content="Various tweaks to improve annoying aspects of the game.">
 
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#292c35">
     <meta name="darkreader-lock">
@@ -40,21 +40,21 @@
     <meta http-equiv='pragma' content='no-cache'>
     <meta http-equiv='clear-site-data' content='cache'>
 
-    <script src="js/imageViewer.js"></script>
     <script src="js/popup.js"></script>
     <script src="js/javascript.js"></script>
     <script src="js/responsiveTitle.js"></script>
-    <script src="js/download.js"></script>
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/navigationArrows.css">
+    <link rel="stylesheet" href="css/coco.css">
     <link rel="stylesheet" href="css/progressBar.css">
     <link rel="stylesheet" href="css/guideColors.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="css/images.css">
+    <link rel="stylesheet" href="css/textIcons.css">
 </head>
 
 <body class="theme">
@@ -190,74 +190,27 @@
 
         <div class="content">
 
-            <span id="ExtendedFinish" class="section">
-                <h2 onclick="location.href='#ExtendedFinish'">Extended Finish</h2>
+            <span id="Tweaks" class="section">
+                <h2 onclick="location.href='#Tweaks'">Tweaks</h2>
 
-                <div class="card" id="LoadOrder">
+                <div class="card">
                     <p>
-                    <h3>Applying the Load Order</h3>
-                    The final step is to apply the load order of installed plugins. The guide comes with a premade load order file, which ensures all mods are being loaded in correct order, with all conflicts accounted for.
+                    <h3>Creating a Separator in MO2</h3>
                     <ol>
-                        <li><strong>Download</strong> the DBF Load Order from <a onclick="downloadFile('https:\/\/raw.githubusercontent.com/ModdingLinked/Dragonborns-Fate/refs/heads/main/files/loadorder.txt')" style="cursor:pointer" title="loadorder.txt">here</a>.
-                        <li>In MO2, click the <img class="mo2-icon" src="./img/MO2/Folders.webp" alt="MO2 folders"> button at the top of MO2 and click <strong>Open Profile folder</strong>.</li>
-                        <li><strong>Move loadorder.txt</strong> to the MO2 profile folder. You should get a popup message asking if you want to overwrite the existing file - click <strong>Yes</strong>.</li>
-                        <li>Press <strong>F5</strong> while you are on MO2 without any menu open.</li>
+                        <li>Right-click the empty space in the left pane of MO2 and select <strong>Create separator</strong>.</li>
+                        <li>Name the separator <strong>Tweaks</strong>.</li>
                     </ol>
-
-                    <div class="card-red">
-                        <p>
-                            Your load order (found under the <b>Plugins</b> tab in the <b>right</b> pane of MO2) should match the <b>loadorder.txt</b> file you just downloaded. You can ignore any plugins from mods that you may have skipped, but the order the remaining plugins are in should match the file.
-                            <br>
-                            <br>
-                            If that isn't the case, make sure to <strong>sort the load order by priority</strong> by clicking the <b>Priority</b> column header at the top.
-                            <br>
-                            <br>
-                            Join our <a href="https://discord.gg/S99Ary5eba" target="_blank">Discord</a> server for support, if needed.
-                        </p>
-                    </div>
-
                     </p>
                 </div>
 
-                <div class="card" id="RunningTheGame">
+                <div class="card" id="BetterJumping">
                     <p>
-                    <h3>Running the Game</h3>
-                    Due to the way Mod Organizer 2 works, running programs through it is a requirement in order to load mods. This is done in the <strong>top-right corner</strong> of the manager, where the program to run is chosen. Here, <strong>select SKSE</strong>.
-                    <br>
-                    <br>
-                    For the sake of convenience you may also <strong>create a shortcut</strong> (right below the <b>Run</b> button) so that you won't have to manually open MO2 each time before playing.
-                    <br>
-                    <div class="image-container width-60">
-                        <img class="content-img" src="./img/Others/Start SKSE.webp" alt="Launching SKSE">
-                        <div class="resize-overlay expand"></div>
-                    </div>
-                    </p>
-                </div>
-
-                <div class="card" id="MCMConfiguration" title="MCM Configuration">
-                    <p>
-                    <h3>MCM Configuration</h3>
-                    Once you are in the game, head to the <b>Mod Configuration</b> menu and edit the various settings to your liking.
-                    <br>
-                    <br>
-                    You have now completed the entirety of A Dragonborn's Fate and <strong>you can start playing</strong>. Have fun!
-                    </p>
-                </div>
-
-                <div class="card" id="MoreContent">
-                    <p>
-                    <h3>Want More?</h3>
-                    Adding mods independently and without the help of a guide is only recommended after you have learned the required information and workflow. These range from general technicalities about the game, to solving conflicts with <a href="https://moddinglinked.com/xedit.html" target="_blank">xEdit</a> through <a href="https://moddinglinked.com/themethod.html" target="_blank">The Method</a>.
-                    <br>
-                    <br>
-                    You can find sources for all this information and more in the <a href="./resources.html" target="_blank">Resources</a> section. You should also be aware of the <a href="./avoid-tools.html" target="_blank">Tools</a> and <a href="./avoid-mods.html" target="_blank">Mods to Avoid</a>.
-
-                    <div class="card-yellow">
-                        <p>
-                            We may not provide support for setups that have added mods, especially if you went overboard!
-                        </p>
-                    </div>
-
+                    <h3 class="link-download"><a href="https://www.nexusmods.com/skyrimspecialedition/mods/18967" target="_blank">Better Jumping SE</a></h3>
+                    Allows to jump while sprinting.
+                    <h3 class="install">Installation instructions</h3>
+                    <ul>
+                        <li><b>Main Files</b> - Better Jumping (1.6.X)</li>
+                    </ul>
                     </p>
                 </div>
             </span>
@@ -266,6 +219,11 @@
                 <a href="#" id="previous" rel="prev" class="navigationArrow">
                     <img class="mirror" src="./img/UI/Arrow.svg" alt="Back Arrow">
                     <span class="arrowText"></span>
+                </a>
+
+                <a href="#" id="next" rel="next" class="navigationArrow">
+                    <span class="arrowText"></span>
+                    <img src="./img/UI/Arrow.svg" alt="Forward Arrow">
                 </a>
             </div>
         </div>
@@ -277,14 +235,6 @@
     </div>
 
     <footer>ModdingLinked 2025</footer>
-
-    <div id="image-overlay" class="overlay" hidden>
-        <div class="image-container">
-            <img id="enlarged-image" class="enlarged-image" src="" alt="Enlarged Image">
-            <div class="resize-overlay shrink"></div>
-        </div>
-    </div>
-
 </body>
 
 </html>
